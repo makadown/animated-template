@@ -12,3 +12,12 @@ Tailwind CSS...
 https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation
 ```
 
+Unsplash (Loyalty free images)
+```
+https://unsplash.com/
+```
+
+Random User Generator
+```
+https://randomuser.me/
+```
