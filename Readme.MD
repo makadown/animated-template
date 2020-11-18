@@ -21,3 +21,14 @@ Random User Generator
 ```
 https://randomuser.me/
 ```
+
+Animate on Scroll Library
+```
+https://michalsnik.github.io/aos/
+```
+
+About Loading 3rd party JS
+```
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript
+```
+
