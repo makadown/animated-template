@@ -37,37 +37,50 @@
           <i class="text-white fas fa-bars"></i>
         </button>
       </div>
-      <!-- Nav Right Side -->
-      <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-        <!-- Social Media Button -->
-        <li class="flex items-center">
-          <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-            href="#pablo">
-            <!-- Icon -->
-            <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
-            <span class="lg:hidden inline-block ml-2">Share</span>
-          </a>
-        </li>
-        <!-- Social Media Button -->
-        <li class="flex items-center">
-          <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-            href="#pablo">
-            <!-- Icon -->
-            <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
-            <span class="lg:hidden inline-block ml-2">Tweet</span>
-          </a>
-        </li>
-        <!-- Social Media Button -->
-        <li class="flex items-center">
-          <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-            href="#pablo">
-            <!-- Icon -->
-            <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
-            <span class="lg:hidden inline-block ml-2">Star</span>
-          </a>
-        </li>
-      </ul>
-    </div>
+      <!-- Nav Flex Row -->
+      <div class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+        id="example-collapse-navbar">
+        <!-- <ul class="flex flex-col lg:flex-row list-none mr-auto">
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold" 
+            href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/landing">
+            Icon
+            <i class="lg:text-gray-300 text-gray-500 far fa-file-alt text-lg leading-lg mr-2"></i>
+            Docs
+            </a>
+          </li>
+        </ul> -->
+        <!-- Nav Right Side -->
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <!-- Social Media Button -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo">
+              <!-- Icon -->
+              <i class="lg:text-gray-300 text-gray-500 fab fa-facebook text-lg leading-lg "></i>
+              <span class="lg:hidden inline-block ml-2">Share</span>
+            </a>
+          </li>
+          <!-- Social Media Button -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo">
+              <!-- Icon -->
+              <i class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "></i>
+              <span class="lg:hidden inline-block ml-2">Tweet</span>
+            </a>
+          </li>
+          <!-- Social Media Button -->
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#pablo">
+              <!-- Icon -->
+              <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
+              <span class="lg:hidden inline-block ml-2">Star</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
   <!-- End of Navigation -->
@@ -89,8 +102,7 @@
               <h1 class="text-white font-semibold text-5xl" data-aos="fade-up">
                 Welcome your epiphany.
               </h1>
-              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right"
-                  data-aos-delay="1000">
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right" data-aos-delay="1000">
                 Lorem ipsum dolor sit. Eum totam aspernatur aliquam praesentium aperiam magni, dignissimos, atque
                 incidunt fuga nulla distinctio eligendi enim placeat nesciunt, soluta maxime nihil ipsa minus!
               </p>
@@ -686,18 +698,10 @@
   <!-- End of Footer Section -->
 </body>
 <!-- AOS.js -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init({
-    delay: 200, // values from 0 to 3000, with step 50ms
-    duration: 1400, // values from 0 to 3000, with step 50ms
-    once: false, // whether animation should happen only once - while scrolling down
-    mirror: false, // whether elements should animate out while scrolling past them
-    anchorPlacement: 'top-bottom'
-  });
-</script>
+<script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script defer src="script.js"></script>
 <!-- Navigation Script -->
-<script>
+<script defer>
   function toggleNavbar(collapseID) {
     document.getElementById(collapseID).classList.toggle("hidden");
     document.getElementById(collapseID).classList.toggle("block");

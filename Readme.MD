@@ -32,3 +32,7 @@ About Loading 3rd party JS
 https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript
 ```
 
+Diferencia entre async y defer
+```
+https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript#use_async_or_defer
+```
